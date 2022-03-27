@@ -1,14 +1,14 @@
-#Prototype implementation of VSSR protocol
+# Prototype implementation of VSSR protocol
 
 This project is a prototype implementation of the VSSR protocol proposed by [Basu et al.](https://dl.acm.org/doi/10.1145/3319535.3354207).
 
 We implemented VSSR on top of the modified [BFT-SMaRt](https://github.com/bft-smart/library) library. 
 You can find the modified version of the library [here](https://github.com/rvassantlal/library).
 
-##Recommendation
+## Recommendation
 The prototype is implemented in Java and was tested using Java 11.0.13.
 
-##Compiling and packaging
+## Compiling and packaging
 First, clone this repository. Now inside the main directory `VSSR` (assuming you did not 
 change the name), execute the following command to compile and package this implementation:
 ```
@@ -17,7 +17,7 @@ change the name), execute the following command to compile and package this impl
 The required jar files and default configurations files will be available inside 
 the `VSSR/build/install/VSSR` directory.
 
-##Usage
+## Usage
 Since this VSSR prototype extends the BFT-SMaRt library, first configure BFT-SMaRt following 
 instructions presented in its [repository](https://github.com/bft-smart/library). 
 Next, configure VSSR by changing the `VSSR/config/vssr.config` file.
